@@ -51,12 +51,13 @@ Deployed on Streamlit Cloud:
 
 To run the project locally:
 
+```bash
 1. Clone the repository:
    
-git clone https://github.com/your-username/ai-portfolio-generator.git
+git clone https://github.com/Ashwanth770/ai-portfolio-generator.git
 cd ai-portfolio-generator 
 
-2. Install dependencies:
+3. Install dependencies:
 
 pip install -r requirements.txt
 
