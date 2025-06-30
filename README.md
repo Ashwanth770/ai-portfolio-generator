@@ -66,7 +66,7 @@ pip install -r requirements.txt
 
 3. Configure Gemini API:
 
-In utils.py replace
+In .env replace with your api key
 ```bash
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
 ```
