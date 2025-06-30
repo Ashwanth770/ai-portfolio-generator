@@ -51,23 +51,30 @@ Deployed on Streamlit Cloud:
 
 To run the project locally:
 
-```bash
 1. Clone the repository:
-   
+  
+```bash 
 git clone https://github.com/Ashwanth770/ai-portfolio-generator.git
-cd ai-portfolio-generator 
+cd ai-portfolio-generator
+```
 
-3. Install dependencies:
+2. Install dependencies:
 
+```bash
 pip install -r requirements.txt
+```
 
 3. Configure Gemini API:
 
 In utils.py replace
+```bash
 genai.configure(api_key="YOUR_GEMINI_API_KEY")
+```
 
 4. Run the application:
 
+```bash
 streamlit run Home.py
+```
 
 
