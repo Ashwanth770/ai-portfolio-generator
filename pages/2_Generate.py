@@ -12,7 +12,6 @@ if "user_data" not in st.session_state:
 
 data = st.session_state["user_data"]
 
-# Convert uploads to base64
 photo_b64 = f"data:image/jpeg;base64,{base64.b64encode(data['photo']).decode()}" if data['photo'] else None
 project_imgs_b64 = [f"data:image/jpeg;base64,{base64.b64encode(img).decode()}" for img in data['project_images']]
 cert_imgs_b64 = [
@@ -24,7 +23,6 @@ cert_imgs_b64 = [
 projects_list = data['projects'].splitlines() if data['projects'].strip() else []
 project_entries = "\n".join(projects_list)
 
-# Gemini Prompt
 prompt = f"""
 You are a professional web designer.
 Generate a complete responsive portfolio website in one HTML file using only inline CSS.
@@ -49,14 +47,12 @@ Include these sections in order:
 Use responsive layout, sidebar layout, and visually neat formatting.
 Only return valid HTML starting with <!DOCTYPE html> and ending with </html>. """
 
-# Generate with Gemini
 try:
     html = generate_portfolio_html(prompt)
 except Exception:
     st.error("❌ Failed to generate portfolio using Gemini.")
     st.stop()
 
-# Insert images in sidebar
 sidebar_html = "<div style='position:fixed; top:0; left:0; width:200px; height:100%; background:#f0f0f0; padding:20px; overflow:auto;'>"
 
 if photo_b64:
@@ -77,13 +73,11 @@ if project_imgs_b64:
 
 sidebar_html += "</div>"
 
-# Push main HTML right
 if "<body" in html and "</body>" in html:
     body_parts = html.split("<body", 1)
     tag_content, rest = body_parts[1].split(">", 1)
     html = body_parts[0] + f"<body{tag_content}>" + sidebar_html + f"<div style='margin-left:220px; padding:20px;'>" + rest.replace("</body>", "</div></body>")
 
-# Save and preview
 st.session_state["final_html"] = html
 
 if st.button("✨ Generate Portfolio Website"):
