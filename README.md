@@ -112,7 +112,7 @@ streamlit run Home.py
 
 ---
 
-### Note that the whole webpage may not be seen in the preview so download and see the final webpage
+### Note that the whole webpage may not be seen in the preview so download to see the final webpage
   
 ![image](https://github.com/user-attachments/assets/10a4397d-8ae6-4fb4-a235-d552e2aec1f0)
 
