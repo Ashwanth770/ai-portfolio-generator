@@ -1,10 +1,13 @@
 import base64
 import zipfile
 import os
+from dotenv import load_dotenv
 import google.generativeai as genai
 
-# Setup Gemini
-genai.configure(api_key="AIzaSyBrEWvsIJcSKapYBULNHQh61bSZfByLxjI")
+load_dotenv()
+api_key = os.getenv("GEMINI_API_KEY")
+
+genai.configure(api_key=api_key)
 model = genai.GenerativeModel("gemini-2.5-flash")
 
 def generate_portfolio_html(prompt):
