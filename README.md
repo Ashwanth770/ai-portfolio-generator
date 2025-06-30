@@ -77,4 +77,27 @@ GEMINI_API_KEY="YOUR_GEMINI_API_KEY"
 streamlit run Home.py
 ```
 
+---
+
+## How to run the website 
+
+- Go to the Home page 
+![image](https://github.com/user-attachments/assets/9cb3355e-e29d-4a89-83cf-d8f05fe43cb6)
+
+- Click on the Create button in sidebar and enter the details in the page 
+![image](https://github.com/user-attachments/assets/31c39591-f98a-421b-9bb8-0ed4eb2816f6)
+
+- Add the profile picture and certificates or projects if any and click save 
+![image](https://github.com/user-attachments/assets/05f7e702-3777-4236-af46-488fda6eceaf)
+
+- Now move to the generate page using sidebar to see the webpage preview 
+![image](https://github.com/user-attachments/assets/87d57d4e-48d6-4a55-b410-63275e0c3fc8)
+
+- See the sample preview of the generated webpage and click on download zip to view the code and final portfolio 
+![image](https://github.com/user-attachments/assets/b7f4ed0d-97ab-4645-acb3-91cf01d97e63)
+
+- Note that the whole webpage may not be seen in the preview so download and see the final webpage
+![image](https://github.com/user-attachments/assets/10a4397d-8ae6-4fb4-a235-d552e2aec1f0)
+
+
 
