@@ -62,14 +62,14 @@ if cert_imgs_b64:
     sidebar_html += "<h4>Certificates</h4>"
     for cert in cert_imgs_b64:
         if "pdf" in cert:
-            sidebar_html += f"<embed src='{cert}' width='250' height='175' type='application/pdf' style='margin-bottom:10px;'>"
+            sidebar_html += f"<embed src='{cert}' width='200' height='175' type='application/pdf' style='margin-bottom:10px;'>"
         else:
-            sidebar_html += f"<img src='{cert}' width='250' style='margin-bottom:10px;'>"
+            sidebar_html += f"<img src='{cert}' width='200' style='margin-bottom:10px;'>"
 
 if project_imgs_b64:
     sidebar_html += "<h4>Projects</h4>"
     for img in project_imgs_b64:
-        sidebar_html += f"<img src='{img}' width='250' height='175' style='margin-bottom:10px;'>"
+        sidebar_html += f"<img src='{img}' width='200' height='175' style='margin-bottom:10px;'>"
 
 sidebar_html += "</div>"
 
