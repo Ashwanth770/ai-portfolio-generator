@@ -82,8 +82,6 @@ streamlit run Home.py
 
 ## How to run the website 
 
-<br/> <br/>
-
 ***Note: If the app is inactive please click get this app back***
 
 ![image](https://github.com/user-attachments/assets/d6d02c28-e844-403c-a554-3021205bcfca)
