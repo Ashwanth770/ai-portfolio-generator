@@ -82,6 +82,14 @@ streamlit run Home.py
 
 ## How to run the website 
 
+<br/> <br/>
+
+***Note: If the app is inactive please click get this app back***
+
+![image](https://github.com/user-attachments/assets/d6d02c28-e844-403c-a554-3021205bcfca)
+
+---
+
 ### Go to the Home page
 
 ![image](https://github.com/user-attachments/assets/9cb3355e-e29d-4a89-83cf-d8f05fe43cb6)
@@ -102,19 +110,21 @@ streamlit run Home.py
 
 ### Now move to the generate page using sidebar to see the webpage preview
   
-![image](https://github.com/user-attachments/assets/87d57d4e-48d6-4a55-b410-63275e0c3fc8)
+![image](https://github.com/user-attachments/assets/f3dc4032-b658-4a40-8a49-2dbd05ce58c4)
 
 ---
 
 ### See the sample preview of the generated webpage and click on download zip to view the code and final portfolio
   
-![image](https://github.com/user-attachments/assets/b7f4ed0d-97ab-4645-acb3-91cf01d97e63)
+![image](https://github.com/user-attachments/assets/edd3625b-2949-4499-9262-af202eab8040)
 
 ---
 
 ### Note that the whole webpage may not be seen in the preview so download to see the final webpage
   
-![image](https://github.com/user-attachments/assets/10a4397d-8ae6-4fb4-a235-d552e2aec1f0)
+![image](https://github.com/user-attachments/assets/b76079ad-f0c3-44e5-b998-58e1e07a4d20)
+
+---
 
 ## Code Screenshot
 
