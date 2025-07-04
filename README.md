@@ -116,5 +116,37 @@ streamlit run Home.py
   
 ![image](https://github.com/user-attachments/assets/10a4397d-8ae6-4fb4-a235-d552e2aec1f0)
 
+## Code Screenshot
+
+### Home.py
+
+![image](https://github.com/user-attachments/assets/ef737f6b-5775-444a-beaf-5bb6dfbaef98)
+
+---
+
+### 1_Create.py
+
+![image](https://github.com/user-attachments/assets/61b9c798-4993-441f-8ff8-7e0846d7d68e)
+
+---
+
+### 2_Generate.py
+
+![image](https://github.com/user-attachments/assets/7cc465b5-6502-45da-9aad-b9cbfa19dd82) <br/> <br/>
+
+![image](https://github.com/user-attachments/assets/08f68976-ab5f-4b11-a975-2c14525cd5fb)
+
+---
+
+### utils.py
+
+![image](https://github.com/user-attachments/assets/87963b7f-0701-489c-b65c-36a1d01cfc12)
+
+
+
+
+
+
+
 
 
