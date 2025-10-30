@@ -1,7 +1,7 @@
 import streamlit as st
 
 st.set_page_config(page_title="Create Portfolio", layout="centered")
-st.title("📝 Enter Your Portfolio Info")
+st.title("📝 Enter Your Info")
 
 with st.form("portfolio_form"):
     name = st.text_input("Your Full Name")
@@ -28,4 +28,5 @@ with st.form("portfolio_form"):
             "photo": photo.read() if photo else None,
             "photo_name": photo.name if photo else None
         }
+
         st.success("Saved! Now go to 'Generate Portfolio' from sidebar.")
